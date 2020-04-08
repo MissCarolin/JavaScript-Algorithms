@@ -1,4 +1,4 @@
-const Degrees = celcius => {
+const degrees = celcius => {
   return (celcius*(9/5) + 32);
 }
-console.log(Degrees(30))
+console.log(degrees(30))
