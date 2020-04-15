@@ -21,6 +21,7 @@ const firstDublicate2 = arr => {
 
   for(let num of arr) {
     if(duplicateObject.hasOwnProperty(num)) {
+      console.log(duplicateObject[num])
       return num;
     }
     duplicateObject[num] = num;
